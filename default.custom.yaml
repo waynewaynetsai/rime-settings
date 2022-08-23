@@ -1,0 +1,10 @@
+# default.custom.yaml
+
+patch:
+  menu/page_size: 9
+  schema_list: 
+    - schema: bopomofo_hsus
+    # - schema: bopomofo_hsuq
+  key_binder:
+    bindings:
+        - { when: has_menu, accept: space, send: select }
